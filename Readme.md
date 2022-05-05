@@ -26,6 +26,6 @@ com/docs/elixir/.
 
 [12] Google. ”Google Style Guides”. https://google.github.io/styleguide/
 
-### PTR_Lab03x
+### PTR_Lab03
 
 [1] Gregor Hohpe, Bobby Woolf. ”Messaging Patterns”. https://www.enterpriseintegrationpatterns.com/patterns/messaging/index.html
