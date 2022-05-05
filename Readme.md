@@ -1,4 +1,13 @@
 # Build Scala Message Broker
+• The workers need to be load balanced in a round robin fashion;
+
+• Occasionally, events will contain a “kill message”. These should crash the worker receiving said message;
+
+• The worker pool needs to be supervised and a restart policy enforced upon them;
+
+• After receiving a task, a worker should sleep for 50ms to 500ms, distributed normally;
+
+• The system should provide logs about starting / stopping / auto-scaling / load balancing workers and should print processed tweets.
 ### PTR_Lab01
 [1] Cameron Currie. ”EventsourceEx”. https://github.com/cwc/eventsource_ex
 
